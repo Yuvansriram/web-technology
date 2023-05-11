@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> foodjunction</title>
+<style type="text/css">
+		*{padding: 0; margin:0; box-sizing: border-box; font-family: sans-serif;
+		}
+		header{
+			width: 100%;
+			height: 100vh;
+			background: url("https://cdn.donmai.us/original/3f/fe/__monkey_d_luffy_one_piece_drawn_by_feichangkou__3ffe64b74fd97476a180c8e285a03d12.jpg");
+			background-size: 50% 90%;
+			background-repeat: no-repeat;
+			background-position: bottom right;
+			position: relative;
+		}
+		nav{
+			width: 100%;
+			height: 70px;
+			padding: 0px 70px;
+			background: white;
+			color: black;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			box-shadow: 2px 0px 5px grey;
+		}
+		.logo{
+			font-weight: bold;
+			font-size: 2em;
+			letter-spacing: 2px;
+		}
+		.logo span{
+			color: brown;
+		}
+		.menu a{
+			text-decoration: none;
+			color: black;
+			padding: 10px 20px;
+		}
+		.menu a:last-child{
+			background: brown;
+			color: white;
+			border-radius: 8px;
+		}
+
+		.h-text{
+			position: absolute;
+			top:20%;
+			left: 5%;
+			padding: 15px;
+
+		}
+		.h-text p{
+			color: #262626;
+			letter-spacing: 3px;
+			font-weight: bold;
+		}
+		.h-text h1{
+			font-size: 4em;
+			line-height: 1.5em;
+		}
+		.h-text h1 span{
+				color: brown;
+		}
+		.h-text h2{
+			font-size: 4em;
+			margin-bottom: 0.5em;
+		}
+		#order{
+			text-decoration: none;
+			color: white;
+			background: black;
+			border-radius: 8px;
+			padding: 10px 20px;
+		}
+		#dis{
+			text-decoration: none;
+			color: white;
+			background: #262626;
+			padding: 10px 20px;
+			border-radius: 8px;
+		}
+          .blink-bg{
+		color: #fff;
+		padding: 20px;
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackground 3s infinite;
+	}
+	@keyframes blinkingBackground{
+		0%		{ background-color: #10c018;}
+		25%		{ background-color: #1056c0;}
+		50%		{ background-color: #ef0a1a;}
+		75%		{ background-color: #254878;}
+		100%	        { background-color: #04a1d5;}
+	}
+      
+		#moving{
+			position: absolute;
+			bottom: 15%;
+			left: 5%;
+		}
+		#moving img{
+			transition: 0.3s ease;
+		}
+		#moving img:hover{
+			transform: translateY(-20px);
+		}
+</style>
+</head>
+<body>
+<header>
+	<nav>
+		<div class="logo">Food Junction</div>
+		<div class="menu">
+				<a href="home1.html">Home</a>
+			<a href="menu.html">Menu</a>
+			<a href="about.html">About</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	</nav>
+<br>
+	<div class="h-text">
+		<h1 style="font-size:30pt;">Fun. Fast. Tasty. Delicious.</h1>
+		<h2 style="font-size:20pt;color:red">Once You <span><b>TRY IT,</b></span> You Will<span> <b>LOVE IT.</b></span></h2>
+            <br>
+            <br>
+<div class="blink-bg"><b><i>Upto 35% Offer</i></b></div>
+      <br><br>      
+<br>
+		<h3><b><i>ORDER NOW</i></b></h3>
+           <br>
+            <br>
+            
+	</div>
+	<div id="moving">
+		<img src="https://b.zmtcdn.com/data/brand_creatives/logos/9da52e2b69f19bb603227a750e788d33_1613214750.png?output-format=webp" width="100">	
+		<img src="https://b.zmtcdn.com/data/brand_creatives/logos/c38f7540bcc5a38e918856ac06409056_1504531339.png?output-format=webp" width="100">
+		<img src="https://b.zmtcdn.com/data/brand_creatives/logos/852ecb32ce69b6a3dd2e7ed9ec2f5dc5_1630421870.png?output-format=webp" width="100">
+            <img src="https://b.zmtcdn.com/data/brand_creatives/logos/32d7efa7114468686994cd52a1ff0775_1625164115.png?output-format=webp" width="100">
+            <img src="https://b.zmtcdn.com/data/brand_creatives/logos/868e99c35e35fc2bae1dccc465ed4c82_1625159864.png?output-format=webp" width="100">
+	</div>
+</header>
+</body>
+</html>
